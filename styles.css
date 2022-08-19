@@ -49,12 +49,16 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
     height: 600px;
     margin: auto;
     padding: 20px;
+    border: none;
+    border-radius: 10px;
 }
 
 #screen-main {
     background-color: black;
     width: auto;
     height: 200px;
+    border: none;
+    border-radius: 7px;
 }
 
 #button-frame {
@@ -67,6 +71,8 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 .button {
     background-color: cadetblue;
     border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,20);
     color: white;
     padding: 15px;
     text-align: center;
